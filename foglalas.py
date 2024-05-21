@@ -28,6 +28,7 @@ class Foglalas:
                     raise ValueError('Ez a szoba ebben az időpontban már foglalt!')
             else:
                 self._foglalasok.append([szobaszam,datum,'T'])
+                self._foglalasok = sorted(self._foglalasok, key=lambda x: (x[1], x[0]))
                 return sz.ar
 
     def lemondas(self, szobaszam:int, datum: datetime):

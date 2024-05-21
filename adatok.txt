@@ -1,3 +1,6 @@
 Leinemann Balázs
 Mérnökinformatikus - alapképzés (BA/BSc/BProf)(MEIN-AT-07)(Felv. éve:2023/24/1[Távoktatás])
 QZTRZE
+
+git repo:
+https://github.com/lebalazs/OOPROG.git
